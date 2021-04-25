@@ -17,3 +17,13 @@ for i in range(1, 101):
 	r.sendline(str(i))
 
 r.interactive()
+
+# 3rd
+不想用 python 寫得話就用線上排序大小www
+https://miniwebtool.com/zh-tw/sort-numbers/
+
+# Morse code
+這題就利用線上翻譯工具
+https://morsecode.world/international/translator.html
+
+本人不太會Python，所以都居多用線上工具XDD
