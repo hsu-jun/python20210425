@@ -27,3 +27,15 @@ https://miniwebtool.com/zh-tw/sort-numbers/
 https://morsecode.world/international/translator.html
 
 本人不太會Python，所以都居多用線上工具XDD
+
+# hello world
+只要先在linux裡面創建python檔案，之後輸入下面那段程式碼，再把ip與port套進去
+![image](https://user-images.githubusercontent.com/70767105/115985985-d0d7e800-a5e0-11eb-8cfc-e2ae2ef613eb.png)
+
+from pwn import *
+
+ip = "140.110.112.22"
+port = 24035
+r = remote(ip, port)
+
+r.interactive()
